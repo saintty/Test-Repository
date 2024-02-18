@@ -2,7 +2,6 @@ import unittest
 from functions import isPrime, nextPrime
 
 class TestPrime(unittest.TestCase):
-
     def testIsPrime(self):
         self.assertTrue(isPrime(5)),
         self.assertFalse(isPrime(6))
